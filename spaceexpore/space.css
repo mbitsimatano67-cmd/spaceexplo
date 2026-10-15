@@ -1,0 +1,52 @@
+body {
+ text-align: center;
+ margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   background-image: url("images/gif (1).gif");
+   background-size: cover;
+   padding:10px 0 120px 0;
+   color: white;
+   text-shadow: 2px 2px 5px black;
+}
+
+
+.btn {
+  background-color:white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.underline {
+border-bottom: 2px solid white;
+}
+#spacex {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
